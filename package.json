@@ -1,0 +1,19 @@
+{
+  "name": "aiu",
+  "version": "0.3.0",
+  "description": "AI plan limits at a glance: % used + reset timers",
+  "type": "module",
+  "bin": {
+    "aiu": "aiu.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5",
+    "typescript": "^7.0.2"
+  }
+}
